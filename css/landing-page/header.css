@@ -1,5 +1,5 @@
 header {
-    padding: 30px 0;
+    padding: 30px 20px;
 }
 /*everytime you use floats, use the :after code to avoid issues*/
 header:after{
@@ -14,12 +14,48 @@ header a{
 header .logo{
     display: inline-block;
     float: left;
+    margin-right: 28px;
+}
+header .logo img{
+    width: 40px;
 }
 header .menu{
     display: inline-block;
     float: left;
+    position: relative;
+    top: 20px;
+}
+header .menu a{
+    text-transform: uppercase;
 }
 header .header-buttons{
     display: inline-block;
     float: right;
+}
+header .header-buttons .blue-btn{
+    background: #4C44C1;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+header .header-buttons .blue-btn .fas{
+    margin-left: 15px;
+}
+header .header-buttons .orange-btn{
+    background: #FEA83B;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
 }
