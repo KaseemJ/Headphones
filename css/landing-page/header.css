@@ -1,0 +1,25 @@
+header {
+    padding: 30px 0;
+}
+/*everytime you use floats, use the :after code to avoid issues*/
+header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+header a{
+    color: #4C44C1;
+    text-decoration: none;
+}
+header .logo{
+    display: inline-block;
+    float: left;
+}
+header .menu{
+    display: inline-block;
+    float: left;
+}
+header .header-buttons{
+    display: inline-block;
+    float: right;
+}
