@@ -1,5 +1,7 @@
 header {
     padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 600;
 }
 /*everytime you use floats, use the :after code to avoid issues*/
 header:after{
