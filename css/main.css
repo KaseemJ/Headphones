@@ -12,9 +12,14 @@ E6CDF9 light purple
 */
 .container{
     max-width: 1200px;
+    /* 1400px is for 1080p screen */
     margin: 0 auto;
     padding: 0 20px;
 }
+.container-fluid{
+    margin: 0 5%;
+    padding: 0 20px;
+} 
 
 .box-shadow-default{
 -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);

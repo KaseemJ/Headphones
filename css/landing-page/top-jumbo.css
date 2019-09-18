@@ -11,8 +11,8 @@ background: linear-gradient(135deg, #f7fdff 0%,#f7fdff 40%,#f7fdff 40%,#8948f2 7
         clear: both;
 }
 #top-jumbo .left-side{
-    width: 40%;
-    dislay: inline-block;
+    width: 50%;
+    display: inline-block;
     float: left;
 }
 #top-jumbo .left-side .large-number{
@@ -45,7 +45,7 @@ background: linear-gradient(135deg, #f7fdff 0%,#f7fdff 40%,#f7fdff 40%,#8948f2 7
 #top-jumbo .left-side .info-container .email-area{
     /* background: white; */
     border-radius: 50px;
-    dislay: inline-block;
+    display: inline-block;
     padding: 7px;
 }
 #top-jumbo .left-side .info-container .email-area .far{
@@ -74,11 +74,11 @@ background: linear-gradient(135deg, #f7fdff 0%,#f7fdff 40%,#f7fdff 40%,#8948f2 7
     border-radius: 35px;
 }
 #top-jumbo .right-side{
-    width: 60%;
-    dislay: inline-block;
+    width: 50%;
+    display: inline-block;
     float: left;
 }
 #top-jumbo .right-side img{
     width: 100%;
-    margin-top: 25px;
+    margin-top: 158px;
 }
