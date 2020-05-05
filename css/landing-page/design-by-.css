@@ -96,16 +96,21 @@
 }
 #design-by .design-container .icons-section .refresh-circle{
    position: absolute;
-   left: 0;
-   top: 0;
-   width: 50px;
-   height: 50px;
+   left: 50;
+   top: 50;
+   width: 80px;
+   height: 80px;
    background: white;
+   border-radius: 50%;
+   top: 40%;
+   left: 45%;
 }
 #design-by .design-container .icons-section .refresh-circle .fas{
    position: absolute;
    color: #FEA83B;
    font-size: 2.5rem;
+   top: 20px;
+   left: 20px;
 }
 #design-by .design-container .icons-section .icon-box{
     width: 50%;
@@ -113,7 +118,7 @@
     display: inline-block;
     float: left;
     text-align: center;
-    border: 1px solid #000;
+    border: 1px solid #e5e6e8;
     color: #6066F2;
     font-size: 1.3rem;
 }
