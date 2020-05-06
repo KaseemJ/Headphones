@@ -27,6 +27,7 @@
     padding: 12px 20px;
     display: inline-block;
     border-radius: 45px;
+    margin-bottom: 40px;
 }
 #color-collection .right-side .swatch-area:after {
     content: "";
@@ -57,11 +58,46 @@
     background: -moz-linear-gradient(top, #e570e7 0%, #c85ec7 47%, #a849a3 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    margin-right: 0;
+}
+#color-collection .right-side {
+    width: 40%;
+    display: inline-block;
+    float: left;
 }
 #color-collection .right-side .info-box {
+    max-width: 290px;
     background: white;
-    padding: 12px 20px;
+    padding: 40px 20px;
     display: inline-block;
-    border-radius: 45px;
+    text-align: center;
+}
+#color-collection .right-side .info-box h2 {
+   font-size: 2rem;
+}
+#color-collection .right-side .info-box h2 span {
+   display: block;
+   text-align: center;
+}
+#color-collection .right-side .info-box h2 span.orange {
+   color: #FEA83B;
+   font-weight: 100;
+}
+#color-collection .right-side .info-box h2 span.blue {
+   color: #6066F2;
+}
+#color-collection .right-side .info-box h2 span.purple {
+   color: #B286F8;
+   font-weight: 100;
+}
+#color-collection .right-side .info-box p {
+    color: #aaacaf;
+    font-size: .8rem;
+    margin: 40px 0;
+}
+#color-collection .right-side .info-box a {
+    color: #6066F2;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 40px 0;
 }
