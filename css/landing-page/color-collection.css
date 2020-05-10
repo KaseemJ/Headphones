@@ -1,7 +1,7 @@
 #color-collection {
     padding: 50px;
 }
-#color-collection:after {
+#color-collection .container:after {
     content: "";
     display: table;
     clear: both;
@@ -125,10 +125,11 @@
     background: linear-gradient(to bottom, #fc750f 1%,#ffe30f 12%,#b5fc0f 27%,#0fe8fc 42%,#0f6bff 65%,#e30fff 86%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-#color-collection .left-side .col-1 {
+#color-collection .right-side .col-1 {
     float: left;
     width: 80%;
 }
-#color-collection .left-side .col-2 {
-
+#color-collection .right-side .col-2 {
+    float: left;
+    width: 20%;
 }
