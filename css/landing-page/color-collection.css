@@ -100,4 +100,11 @@
     font-weight: 600;
     text-decoration: none;
     margin: 40px 0;
+    display: block;
+}
+#color-collection .right-side .info-box .line {
+    height: 2px;
+    width: 50px;
+    background:#B286F8;
+    display: inline-block;
 }
