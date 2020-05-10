@@ -12,6 +12,7 @@
     float: left;
     text-align: center;
 }
+
 #color-collection .left-side img{
     width: 80%;
     display: inline-block;
@@ -64,6 +65,11 @@
     display: inline-block;
     float: left;
 }
+#color-collection .right-side:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 #color-collection .right-side .info-box {
     max-width: 280px;
     width: 100%;
@@ -112,8 +118,17 @@
 #color-collection .right-side .color-slider  {
     width: 20px;
     height: 400px;
+    border-radius: 40px;
     background: #fc750f; /* Old browsers */
     background: -moz-linear-gradient(top, #fc750f 1%, #ffe30f 12%, #b5fc0f 27%, #0fe8fc 42%, #0f6bff 65%, #e30fff 86%, #ff670f 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #fc750f 1%,#ffe30f 12%,#b5fc0f 27%,#0fe8fc 42%,#0f6bff 65%,#e30fff 86%,#ff670f 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #fc750f 1%,#ffe30f 12%,#b5fc0f 27%,#0fe8fc 42%,#0f6bff 65%,#e30fff 86%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#color-collection .left-side .col-1 {
+    float: left;
+    width: 80%;
+}
+#color-collection .left-side .col-2 {
+
 }
