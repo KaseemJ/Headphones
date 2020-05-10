@@ -124,6 +124,15 @@
     background: -webkit-linear-gradient(top, #fc750f 1%,#ffe30f 12%,#b5fc0f 27%,#0fe8fc 42%,#0f6bff 65%,#e30fff 86%,#ff670f 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #fc750f 1%,#ffe30f 12%,#b5fc0f 27%,#0fe8fc 42%,#0f6bff 65%,#e30fff 86%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+#color-collection .right-side .color-slider .picker {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FEA83B;
+    border: 10px solid #fff;
+    box-sizing: content-box;
+    position: absolute;
+}
 
 #color-collection .right-side .col-1 {
     float: left;
