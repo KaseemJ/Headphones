@@ -65,7 +65,8 @@
     float: left;
 }
 #color-collection .right-side .info-box {
-    max-width: 290px;
+    max-width: 280px;
+    width: 100%;
     background: white;
     padding: 40px 20px;
     display: inline-block;
@@ -99,7 +100,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    margin: 40px 0;
+    margin: 40px 0 20px;
     display: block;
 }
 #color-collection .right-side .info-box .line {
@@ -107,4 +108,12 @@
     width: 50px;
     background:#B286F8;
     display: inline-block;
+}
+#color-collection .right-side .color-slider  {
+    width: 20px;
+    height: 400px;
+    background: #fc750f; /* Old browsers */
+    background: -moz-linear-gradient(top, #fc750f 1%, #ffe30f 12%, #b5fc0f 27%, #0fe8fc 42%, #0f6bff 65%, #e30fff 86%, #ff670f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fc750f 1%,#ffe30f 12%,#b5fc0f 27%,#0fe8fc 42%,#0f6bff 65%,#e30fff 86%,#ff670f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fc750f 1%,#ffe30f 12%,#b5fc0f 27%,#0fe8fc 42%,#0f6bff 65%,#e30fff 86%,#ff670f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
