@@ -1,0 +1,20 @@
+#blue-print {
+    background: #6066F2;
+    padding: 170px 0;
+}
+#blue-print .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#blue-print .left-side {
+    width: 50%;
+    float: left;
+}
+#blue-print .left-side img{
+    width: 100%;
+}
+#blue-print .right-side {
+    width: 50%;
+    float: left;
+}
